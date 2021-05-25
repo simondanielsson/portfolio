@@ -17,7 +17,8 @@ edof(:,2:4)=t(1:3,:)';
 coord=p' ;
 ndof=max(max(t(1:3,:)));
 [Ex,Ey]=coordxtr(edof,coord,(1:ndof)',3);
-%eldraw2(Ex,Ey,[1,4,1])  
+eldraw2(Ex,Ey,[1,4,1])  
+title("Mesh of half the camera used in the FE analysis")
 
 % a) Stationary heat flow: Compute and assemble element stiffness matrices and element load vector (=0)
 % Parameters
@@ -66,7 +67,7 @@ end
 % Handling the convection term
 % Check which segments that should have convections 
 % Parameters
-Tright = 20;
+Tright = 20;    
 
 er = e([1 2 5],:); % Reduced e
 
@@ -91,17 +92,18 @@ for i=1:length(edges_conv_left)
     node1 = edges_conv_left(1, i);
     node2 = edges_conv_left(2, i);
     
-    x1 = coord(node1, 1);
+    x1 = coord(node1, 1)
     y1 = coord(node1, 2);
-    x2 = coord(node2, 1);
+    x2 = coord(node2, 1)
     y2 = coord(node2, 2);
-    Li = sqrt((x1-x2)^2 + (y1-y2)^2); % length of the i:th convection sub-boundary
+    Li = sqrt((x1-x2)^2 + (y1-y2)^2) % length of the i:th convection sub-boundary
      
     integral = alpha_c*1/2*Li*Tleft*thickness; % boundary vector integral
     fb(node1) = fb(node1) + integral;
     fb(node2) = fb(node2) + integral;
 end
-
+edges_conv_left
+edges_conv_right
 % Right hand side convection boundary
 for i=1:length(edges_conv_right) 
     node1 = edges_conv_right(1, i);
@@ -136,10 +138,10 @@ for i=1:length(edges_conv_left)
     integral = alpha_c*thickness*1/6*Li*[2, 1; 1, 2]; % Easy integral of element shape function
     
     % Assemble
-    M(node1, node1) = integral(1, 1);
-    M(node1, node2) = integral(1, 2);
-    M(node2, node1) = integral(2, 1);
-    M(node2, node2) = integral(2, 2);  
+    M(node1, node1) = M(node1, node1) + integral(1, 1);
+    M(node1, node2) = M(node1, node2) + integral(1, 2);
+    M(node2, node1) = M(node2, node1) + integral(2, 1);
+    M(node2, node2) = M(node2, node2) + integral(2, 2);  
 end
 
 % Now right hand side convection boundary
@@ -156,10 +158,10 @@ for i=1:length(edges_conv_right)
     integral = alpha_c*thickness*1/6*Li*[2, 1; 1, 2]; % Easy integral of element shape function
     
     % Assemble
-    M(node1, node1) = integral(1, 1);
-    M(node1, node2) = integral(1, 2);
-    M(node2, node1) = integral(2, 1);
-    M(node2, node2) = integral(2, 2);  
+    M(node1, node1) = M(node1, node1) + integral(1, 1);
+    M(node1, node2) = M(node1, node2) + integral(1, 2);
+    M(node2, node1) = M(node2, node1) + integral(2, 1);
+    M(node2, node2) = M(node2, node2) + integral(2, 2);  
 end
 
 % Formulate full problem
