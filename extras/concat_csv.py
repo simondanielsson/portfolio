@@ -9,8 +9,10 @@ import glob
 import pandas as pd
 import numpy as np
 
-os.chdir('/home/edinmsa/results1')
+home_dir = '/home/edinmsa/results1'
+os.chdir(home_dir)
 file_extension = '.csv'
+
 
 all_filenames = [i for i in glob.glob(f"*{file_extension}")]
 
@@ -23,4 +25,5 @@ for index in range(len(all_filenames)):
     
 file_name = 'cc' 
 pd.DataFrame(all_series).to_csv(f'/home/edinmsa/results1/{file_name}.csv', header=None, index=False)
+
 
