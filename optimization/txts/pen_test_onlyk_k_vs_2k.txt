@@ -1,0 +1,115 @@
+% mu_k = 2k
+
+>> pen_test(1, 1)
+-----------------------------------TEST 1-----------------------------------
+
+k =
+
+     1     3     1     3
+
+
+
+-----------------------------------TEST 2-----------------------------------
+
+k =
+
+     2     3     2     3
+
+
+
+-----------------------------------TEST 3-----------------------------------
+
+k =
+
+     1     3     1     3
+
+
+
+-----------------------------------TEST 4-----------------------------------
+
+k =
+
+     2     3     2     3
+
+
+
+-----------------------------------TEST 5-----------------------------------
+[Warning: Bad job of the line search! F(optim) is NaN] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pen_test', '/Users/simondanielsson/Documents/F/F4/optimering/project/v1.1/pen_test.m', 36)" style="font-weight:bold">pen_test</a> (<a href="matlab: opentoline('/Users/simondanielsson/Documents/F/F4/optimering/project/v1.1/pen_test.m',36,0)">line 36</a>)] 
+
+
+
+% mu_k = k
+
+>> pen_test(1, 1)
+-----------------------------------TEST 1-----------------------------------
+
+k =
+
+     1     3     1     3
+
+
+
+-----------------------------------TEST 2-----------------------------------
+
+k =
+
+     2     3     2     3
+
+
+
+-----------------------------------TEST 3-----------------------------------
+
+k =
+
+     2     6     2     8
+
+
+
+-----------------------------------TEST 4-----------------------------------
+
+k =
+
+     2     3     2     3
+
+
+
+-----------------------------------TEST 5-----------------------------------
+[Warning: Bad job of the line search! F(optim) is NaN] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pen_test', '/Users/simondanielsson/Documents/F/F4/optimering/project/v1.1/pen_test.m', 36)" style="font-weight:bold">pen_test</a> (<a href="matlab: opentoline('/Users/simondanielsson/Documents/F/F4/optimering/project/v1.1/pen_test.m',36,0)">line 36</a>)] 
+
+
+
+% mu_k = 5k
+
+>> pen_test(1, 1)
+-----------------------------------TEST 1-----------------------------------
+
+k =
+
+     1     2     1     2
+
+
+
+-----------------------------------TEST 2-----------------------------------
+
+k =
+
+     3     3     2     2
+
+
+
+-----------------------------------TEST 3-----------------------------------
+
+k =
+
+     2     8     2     5
+
+
+
+-----------------------------------TEST 4-----------------------------------
+Error using newton (line 58)
+Bad job of the line search! F(optim) is NaN...
+
+% Could not finish all tests. Nevertheless the required number of iterations for test 3 was higher than for the other choices mu_k above. 
+
