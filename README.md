@@ -2,9 +2,11 @@
 
 [LinkedIn profile](https://www.linkedin.com/in/simon-danielsson-527b7b215/)
 
-The portfolio consists of projects in courses at ETH Zürich and the Faculty of Engineering at Lund University, as well as some private projects. Each course has been seperated into different directories.
+The portfolio consists of projects in courses at ETH Zürich and the Faculty of Engineering at Lund University, as well as some private projects. The projects span the areas of pure mathematics (matrix theory), applied mathematics (optimization, ML, FEM) and pure programming (OOP design, data structures). 
 
-In the following, a brief overview of some of the main material in the portfolio is presented. For more details I refer to the individual folders.  
+Each course has been seperated into different directories.
+
+eIn the following, a brief overview of some of the main material in the portfolio is presented. For more details I refer to the individual folders.  
 
 
 ### Summary 
