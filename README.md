@@ -10,6 +10,14 @@ In the following, a brief overview of some of the main material in the portfolio
 ### Summary 
 
 
+
+#### Machine Learning projects, private
+
+- Evaluation of different classification models trained using the hyperparameter tuning library <code>Ray Tune</code> and the AutoML-service <code>auto-sklearn</code>, respectively. 
+- Implemented in Python.   
+
+
+
 #### Optimization 
 
 - Implemented a multidimensional nonlinear optimizer using Quasi-Newton methods: specifically the DFP and BFGS methods. 'Exact' (Newton) line search was implemented. 
@@ -18,12 +26,6 @@ In the following, a brief overview of some of the main material in the portfolio
 
 ![report](./optimization/images/titlepage.png)
 ![results](./optimization/images/results.png)
-
-
-#### Machine Learning projects, private
-
-- Evaluation of different classification models trained using the hyperparameter tuning library <code>Ray Tune</code> and the AutoML-service <code>auto-sklearn</code>, respectively. 
-- Implemented in Python.   
 
 
 #### Numerical Analysis
