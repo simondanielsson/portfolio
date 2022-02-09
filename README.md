@@ -27,8 +27,8 @@ In the following, a brief overview of some of the main material in the portfolio
 
 - Numerical methods of solving PDE's and boundary value problems. Different schemes (RK, Crank-Nicholson etc.) are used on a vast set of PDE's; among them are viscous Burger's equation, convection-diffusion equation, advection equations etc.  
 
-![fig1](./numerical-analysis/image/fig1.png)
-![fig2](./numerical-analysis/image/fig2.png)
+![fig1](./numerical-analysis/images/fig1.png)
+![fig2](./numerical-analysis/images/fig2.png)
 
 #### Finite Element Method
 
