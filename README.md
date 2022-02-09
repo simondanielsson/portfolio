@@ -15,8 +15,8 @@ In the following, a brief overview of some of the main material in the portfolio
 - Tests and thorough debugging facilities are implemented. Comprehensive report is available. 
 - Implemented in Matlab.  
 
-![report](./optimization/images/titlepage)
-![results](./optimization/images/results)
+![report](./optimization/images/titlepage.png)
+![results](./optimization/images/results.png)
 
 #### Machine Learning projects, private
 
