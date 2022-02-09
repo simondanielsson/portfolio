@@ -27,6 +27,11 @@ In the following, a brief overview of some of the main material in the portfolio
 ![report](./optimization/images/titlepage.png)
 ![results](./optimization/images/results.png)
 
+#### Matrix Theory
+
+- Implementation of function which constructs the Jordan Normal form of an input matrix (with integral eigenvalues). 
+- Implementet in Matlab.
+
 
 #### Numerical Analysis
 
