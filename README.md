@@ -16,7 +16,7 @@ In the following, a brief overview of some of the main material in the portfolio
 
 #### Machine Learning projects, private
 
-- Evaluation of different classification models trained using the hyperparameter tuning <code>Ray Tune</code> as well as to AutoML-service <code>auto-sklearn</code>.   
+- Evaluation of different classification models trained using the hyperparameter tuning library <code>Ray Tune</code> and the AutoML-service <code>auto-sklearn</code>, respectively.   
 
 #### Numerical Analysis
 
