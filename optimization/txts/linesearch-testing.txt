@@ -1,0 +1,225 @@
+%% Example of how test are conducted on our (Newton) line search method. We show examples of when only the result is printed, and when we choose a more verbose output.
+
+% Performing line search on functions (1-10^a*lambda)^2 for a in [-10, 10]. Only printing results
+>> newtonTest(0)
+------------------------------------------------------
+Results:
+Function @(lambda,a)(1-10^a*lambda)^2, a = 10, has
+Optimal point: 1.000000e-10
+Function value: 4.096000e-15
+Line search finished successfully.
+------------------------------------------------------
+Results:
+Function @(lambda,a)(1-10^a*lambda)^2, a = 9, has
+Optimal point: 1.000000e-09
+Function value: 0
+Line search finished successfully.
+------------------------------------------------------
+Results:
+Function @(lambda,a)(1-10^a*lambda)^2, a = 8, has
+Optimal point: 1.000000e-08
+Function value: 6.103515e-19
+Line search finished successfully.
+------------------------------------------------------
+Results:
+Function @(lambda,a)(1-10^a*lambda)^2, a = 7, has
+Optimal point: 1.000000e-07
+Function value: 3.725306e-21
+Line search finished successfully.
+------------------------------------------------------
+Results:
+Function @(lambda,a)(1-10^a*lambda)^2, a = 6, has
+Optimal point: 1.000000e-06
+Function value: 0
+Line search finished successfully.
+------------------------------------------------------
+Results:
+Function @(lambda,a)(1-10^a*lambda)^2, a = 5, has
+Optimal point: 1.000000e-05
+Function value: 5.552958e-25
+Line search finished successfully.
+------------------------------------------------------
+Results:
+Function @(lambda,a)(1-10^a*lambda)^2, a = 4, has
+Optimal point: 1.000000e-04
+Function value: 3.371505e-27
+Line search finished successfully.
+------------------------------------------------------
+Results:
+Function @(lambda,a)(1-10^a*lambda)^2, a = 3, has
+Optimal point: 1.000000e-03
+Function value: 0
+Line search finished successfully.
+------------------------------------------------------
+Results:
+Function @(lambda,a)(1-10^a*lambda)^2, a = 2, has
+Optimal point: 1.000000e-02
+Function value: 1.232595e-30
+Line search finished successfully.
+------------------------------------------------------
+Results:
+Function @(lambda,a)(1-10^a*lambda)^2, a = 1, has
+Optimal point: 1.000000e-01
+Function value: 0
+Line search finished successfully.
+------------------------------------------------------
+Results:
+Function @(lambda,a)(1-10^a*lambda)^2, a = 0, has
+Optimal point: 1
+Function value: 0
+Line search finished successfully.
+------------------------------------------------------
+Results:
+Function @(lambda,a)(1-10^a*lambda)^2, a = -1, has
+Optimal point: 10
+Function value: 0
+Line search finished successfully.
+------------------------------------------------------
+Results:
+Function @(lambda,a)(1-10^a*lambda)^2, a = -2, has
+Optimal point: 100
+Function value: 0
+Line search finished successfully.
+------------------------------------------------------
+Results:
+Function @(lambda,a)(1-10^a*lambda)^2, a = -3, has
+Optimal point: 1000
+Function value: 0
+Line search finished successfully.
+------------------------------------------------------
+Results:
+Function @(lambda,a)(1-10^a*lambda)^2, a = -4, has
+Optimal point: 10000
+Function value: 0
+Line search finished successfully.
+------------------------------------------------------
+Results:
+Function @(lambda,a)(1-10^a*lambda)^2, a = -5, has
+Optimal point: 1.000000e+05
+Function value: 1.491440e-28
+Line search finished successfully.
+------------------------------------------------------
+Results:
+Function @(lambda,a)(1-10^a*lambda)^2, a = -6, has
+Optimal point: 9.999999e+05
+Function value: 5.108799e-15
+Line search finished successfully.
+------------------------------------------------------
+Results:
+Function @(lambda,a)(1-10^a*lambda)^2, a = -7, has
+Optimal point: 1.000161e+07
+Function value: 2.592823e-08
+Line search finished successfully.
+------------------------------------------------------
+Results:
+Function @(lambda,a)(1-10^a*lambda)^2, a = -8, has
+Optimal point: 9.999997e+07
+Function value: 7.823388e-14
+Line search finished successfully.
+------------------------------------------------------
+Results:
+Function @(lambda,a)(1-10^a*lambda)^2, a = -9, has
+Optimal point: 1.000000e+09
+Function value: 3.882002e-23
+Line search finished successfully.
+------------------------------------------------------
+Results:
+Function @(lambda,a)(1-10^a*lambda)^2, a = -10, has
+Optimal point: 1.000000e+10
+Function value: 1.810054e-13
+Line search finished successfully.
+
+% Performing line search on (1-10^a*lambda)^2, a = -10, with verbose output. It shows the way we choose to handle possible vanishing second-derivatives.
+>> newtonTest(1)
+
+----------------------------------------------------
+----------------------------------------------------
+Executing line search...
+Computing derivatives...
+First attempt: 1st derivative: -2e-10
+First attempt: 2nd derivative: 0
+--------------------------
+Increasing h to 1
+Now: 1st derivative: -2e-10
+Now: 2nd derivative: 0
+Increasing h to 10
+Now: 1st derivative: -2e-10
+Now: 2nd derivative: -5.5511e-19
+--------------------------
+After iteration: 1st derivative =-2e-10
+After iteration: 2nd derivative = -5.5511e-19,
+now using h = 10
+--------------------------
+Performing line search...
+Fp(current_x) = -2e-10
+Fpp(current_x) = -5.5511e-19
+
+Fp(current_x) = -2.0721e-10
+Fpp(current_x) = 5.5511e-19
+
+Fp(current_x) = -1.9974e-10
+Fpp(current_x) = 5.5511e-19
+
+Fp(current_x) = -1.9254e-10
+Fpp(current_x) = 5.5511e-19
+
+Fp(current_x) = -1.8561e-10
+Fpp(current_x) = 5.5511e-19
+
+Fp(current_x) = -1.7892e-10
+Fpp(current_x) = -8.3267e-19
+
+Fp(current_x) = -1.8322e-10
+Fpp(current_x) = 2.7756e-19
+
+Fp(current_x) = -1.7001e-10
+Fpp(current_x) = -5.5511e-19
+
+Fp(current_x) = -1.7614e-10
+Fpp(current_x) = -5.5511e-19
+
+Fp(current_x) = -1.8249e-10
+Fpp(current_x) = -5.5511e-19
+
+Fp(current_x) = -1.8906e-10
+Fpp(current_x) = -2.7756e-19
+
+Fp(current_x) = -2.0268e-10
+Fpp(current_x) = 0
+
+Second derivative vanishes: recomputing derivatives...
+Computing derivatives...
+First attempt: 1st derivative: -2.0268e-10
+First attempt: 2nd derivative: 0
+--------------------------
+Increasing h to 1
+Now: 1st derivative: -2.0268e-10
+Now: 2nd derivative: 0
+Increasing h to 10
+Now: 1st derivative: -2.0268e-10
+Now: 2nd derivative: 0
+Increasing h to 100
+Now: 1st derivative: -2.0268e-10
+Now: 2nd derivative: 3.3307e-20
+--------------------------
+After iteration: 1st derivative =-2.0268e-10
+After iteration: 2nd derivative = 3.3307e-20,
+now using h = 100
+--------------------------
+Fp(current_x) = -8.0977e-11
+Fpp(current_x) = 2.0817e-20
+
+Fp(current_x) = -3.1769e-12
+Fpp(current_x) = 1.9999e-20
+
+Optimum found
+--------------------------
+Details:
+Difference in function value from previous point:
+delta f = 0.00025231
+------------------------------------------------------
+Results:
+Function @(lambda,a)(1-10^a*lambda)^2, a = -10, has
+Optimal point: 1.000000e+10
+Function value: 1.810054e-13
+Line search finished successfully.
