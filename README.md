@@ -44,16 +44,23 @@ In the following, a brief overview of some of the main material in the portfolio
 
 #### Finite Element Method
 
-- 
+- Modeling and solving problems related to heat flow and thermoelastic solid mechanics in a NASA Mars rover, using the Finite Element Method.  
+- Complete report available. 
 - Implemented in Matlab
 
 ![fig1](./finite-element-method/images/fig1.png)
 ![fig2](./finite-element-method/images/fig2.png)
 ![fig3](./finite-element-method/images/fig3.png)
 
+
+
 #### Object-oriented Design
 
+
+- 
 - Implemented in Java
+
+
 
 
 #### Data Structures and Algorithms
