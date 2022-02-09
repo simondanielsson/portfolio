@@ -27,19 +27,22 @@ In the following, a brief overview of some of the main material in the portfolio
 ![report](./optimization/images/titlepage.png)
 ![results](./optimization/images/results.png)
 
+
 #### Matrix Theory
 
 - Implementation of function which constructs the Jordan Normal form of an input matrix (with integral eigenvalues). 
 - Implementet in Matlab.
 
 
-#### Numerical Analysis
+#### Object-oriented Design
 
-- Numerical methods of solving PDE's and boundary value problems. Different schemes (RK, Crank-Nicholson etc.) are used on a vast set of PDE's; among them are viscous Burger's equation, convection-diffusion equation, advection equations etc.  
-- Implemented in Python
+- Two projects in which design patterns are used throughout: 
+	* Object-oriented model of computer architechture capable of running written programs, see first UML figure. 
+	* Excel clone, with focus on implementation of MVC design pattern. Refer to UML diagram below.
+- Implemented in Java
 
-![fig1](./numerical-analysis/images/fig1.png)
-![fig2](./numerical-analysis/images/fig2.png)
+![](./object-oriented-design/computer-architechture-clone_/images/uml_2.png)
+![](./object-oriented-design/excel-clone_/images/model.png)
 
 
 #### Finite Element Method
@@ -53,14 +56,13 @@ In the following, a brief overview of some of the main material in the portfolio
 ![fig3](./finite-element-method/images/fig3.png)
 
 
+#### Numerical Analysis
 
-#### Object-oriented Design
+- Numerical methods of solving PDE's and boundary value problems. Different schemes (RK, Crank-Nicholson etc.) are used on a vast set of PDE's; among them are viscous Burger's equation, convection-diffusion equation, advection equations etc.  
+- Implemented in Python
 
-
-- 
-- Implemented in Java
-
-
+![fig1](./numerical-analysis/images/fig1.png)
+![fig2](./numerical-analysis/images/fig2.png)
 
 
 #### Data Structures and Algorithms
