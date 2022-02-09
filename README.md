@@ -11,7 +11,7 @@ In the following, a brief overview of some of the main material in the portfolio
 
 #### Optimization 
 
-- Implemented a multidimensional nonlinear optimizer using Quasi-Newton methods: specificallt the DFP and BFGS methods. 'Exact' (Newton) line search was implemented. 
+- Implemented a multidimensional nonlinear optimizer using Quasi-Newton methods: specifically the DFP and BFGS methods. 'Exact' (Newton) line search was implemented. 
 - Tests and thorough debugging facilities are implemented. Comprehensive report is available. 
 - Implemented in Matlab.  
 
@@ -25,7 +25,14 @@ In the following, a brief overview of some of the main material in the portfolio
 
 #### Numerical Analysis
 
+- Numerical methods of solving PDE's and boundary value problems. Different schemes (RK, Crank-Nicholson etc.) are used on a vast set of PDE's; among them are viscous Burger's equation, convection-diffusion equation, advection equations etc.  
+
+![fig1](./numerical-analysis/image/fig1.png)
+![fig2](./numerical-analysis/image/fig2.png)
+
 #### Finite Element Method
+
+
 
 #### Data Structures and Algorithms
 
