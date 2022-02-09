@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import os
 import sys
 import time
@@ -239,10 +233,5 @@ if __name__ == "__main__":
     print("All iterations completed")
     print(f"Total elapsed time: {time_elapsed:.1f}")
     
-
-
-# In[ ]:
-
-
 
 

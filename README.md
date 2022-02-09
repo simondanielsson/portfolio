@@ -1,4 +1,4 @@
-## Portfolio of Simon Danielsson.
+## Portfolio of Simon Danielsson
 
 [LinkedIn profile](https://www.linkedin.com/in/simon-danielsson-527b7b215/)
 
