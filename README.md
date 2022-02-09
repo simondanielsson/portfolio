@@ -11,12 +11,17 @@ In the following, a brief overview of some of the main material in the portfolio
 
 #### Optimization 
 
-- test 
-- another test 
+- Implemented a multidimensional nonlinear optimizer using Quasi-Newton methods: specificallt the DFP and BFGS methods. 'Exact' (Newton) line search was implemented. 
+- Tests and thorough debugging facilities are implemented. Comprehensive report is available. 
+- Implemented in Matlab.  
+
+![report](optimization/images/titlepage)
+![results](optimization/images/results)
 
 #### Machine Learning projects, private
 
-- Evaluation of different classification models trained using the hyperparameter tuning library <code>Ray Tune</code> and the AutoML-service <code>auto-sklearn</code>, respectively.   
+- Evaluation of different classification models trained using the hyperparameter tuning library <code>Ray Tune</code> and the AutoML-service <code>auto-sklearn</code>, respectively. 
+- Implemented in Python.   
 
 #### Numerical Analysis
 
