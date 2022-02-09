@@ -4,9 +4,9 @@
 
 The portfolio consists of projects in courses at ETH Zürich and the Faculty of Engineering at Lund University, as well as some private projects. The projects span the areas of pure mathematics (matrix theory), applied mathematics (optimization, ML, FEM) and pure programming (OOP design, data structures). 
 
-Each course has been seperated into different directories.
+The areas have been seperated into different directories.
 
-eIn the following, a brief overview of some of the main material in the portfolio is presented. For more details I refer to the individual folders.  
+In the following, a brief overview of some of the main material in the portfolio is presented. For more details I refer to the individual folders.  
 
 
 ### Summary 
