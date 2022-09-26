@@ -2,9 +2,7 @@
 
 [LinkedIn profile](https://www.linkedin.com/in/simon-danielsson-527b7b215/)
 
-The portfolio consists of projects in courses at ETH Zürich and the Faculty of Engineering at Lund University, as well as some private projects. The projects span the areas of pure mathematics (matrix theory), applied mathematics (optimization, ML, FEM) and pure programming (OOP design, data structures). 
-
-The areas have been seperated into different directories.
+The portfolio consists of projects in courses at ETH Zürich and the Faculty of Engineering at Lund University, as well as some private projects. The projects span the areas of machine learning and data science, pure mathematics (matrix theory), applied mathematics (optimization, Finite Element Method) and programming (OOP design, data structures & algortihms). 
 
 In the following, a brief overview of some of the main material in the portfolio is presented. For more details I refer to the individual folders.  
 
@@ -13,12 +11,11 @@ In the following, a brief overview of some of the main material in the portfolio
 
 
 
-#### Machine Learning projects, private
+#### Machine Learning projects
 
-- Evaluation of different classification models trained using the hyperparameter tuning library <code>Ray Tune</code> and the AutoML-service <code>auto-sklearn</code>, respectively. 
-- Implemented in Python.   
-
-
+- Image similarity + classification, PyTorch
+- Molecular classification, PyTorch
+- Evaluation of different classification models trained using the hyperparameter tuning library <code>Ray Tune</code> and the AutoML-service <code>auto-sklearn</code>, respectively.
 
 #### Optimization 
 
