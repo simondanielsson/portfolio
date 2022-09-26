@@ -40,7 +40,7 @@ This folder contains computer exercises for the course stationary stochastic pro
 - Implementation of function which constructs the [Jordan Normal form](https://en.wikipedia.org/wiki/Jordan_normal_form) of an input matrix (with integral eigenvalues). The Jordan Normal form of a matrix is an important similar matrix which can be leveraged extensively in mathematical proofs of properties of matrices, particularly non-diagonalizable matrices. It is also the fundament for defining functions on matrices.  
 - Implementet in Matlab.
 
-![](./matrix_theory/images/fig1.png)
+![fig1](./matrix_theory/images/fig1.png)
 
 
 #### Object-oriented Design
