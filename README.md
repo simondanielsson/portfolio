@@ -2,9 +2,7 @@
 
 [LinkedIn profile](https://www.linkedin.com/in/simon-danielsson-527b7b215/)
 
-The portfolio consists of projects in courses at ETH Zürich and the Faculty of Engineering at Lund University, as well as some private projects. The projects span the areas of pure mathematics (matrix theory), applied mathematics (optimization, ML, FEM) and pure programming (OOP design, data structures). 
-
-The areas have been seperated into different directories.
+The portfolio consists of projects in courses at ETH Zürich and the Faculty of Engineering at Lund University, as well as some private projects. The projects span the areas of machine learning and data science, pure mathematics (matrix theory), applied mathematics (optimization, Finite Element Method) and programming (OOP design, data structures & algortihms). 
 
 In the following, a brief overview of some of the main material in the portfolio is presented. For more details I refer to the individual folders.  
 
@@ -13,12 +11,11 @@ In the following, a brief overview of some of the main material in the portfolio
 
 
 
-#### Machine Learning projects, private
+#### Machine Learning projects
 
-- Evaluation of different classification models trained using the hyperparameter tuning library <code>Ray Tune</code> and the AutoML-service <code>auto-sklearn</code>, respectively. 
-- Implemented in Python.   
-
-
+- Image similarity + classification, PyTorch
+- Molecular classification, PyTorch
+- Evaluation of different classification models trained using the hyperparameter tuning library <code>Ray Tune</code> and the AutoML-service <code>auto-sklearn</code>, respectively.
 
 #### Optimization 
 
@@ -30,10 +27,20 @@ In the following, a brief overview of some of the main material in the portfolio
 ![results](./optimization/images/results.png)
 
 
+#### Stochastic Processes
+
+This folder contains computer exercises for the course stationary stochastic processes. Below are some sample images from spectral analysis and estimation using different methods of spectral analysis.
+
+![fig1](./stochastic-processes/images/fig1.png)
+![fig2](./stochastic-processes/images/fig2.png)
+
+
 #### Matrix Theory
 
-- Implementation of function which constructs the Jordan Normal form of an input matrix (with integral eigenvalues). 
+- Implementation of function which constructs the [Jordan Normal form](https://en.wikipedia.org/wiki/Jordan_normal_form) of an input matrix (with integral eigenvalues). The Jordan Normal form of a matrix is an important similar matrix which can be leveraged extensively in mathematical proofs of properties of matrices, particularly non-diagonalizable matrices. It is also the fundament for defining functions on matrices.  
 - Implementet in Matlab.
+
+![](./matrix_theory/images/fig1.png)
 
 
 #### Object-oriented Design
@@ -70,4 +77,3 @@ In the following, a brief overview of some of the main material in the portfolio
 #### Data Structures and Algorithms
 
 - Exercies in data structures and algorithms (fairly standard course), in Java. 
-
