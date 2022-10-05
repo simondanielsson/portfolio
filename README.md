@@ -10,12 +10,21 @@ In the following, a brief overview of some of the main material in the portfolio
 ### Summary 
 
 
-
 #### Machine Learning projects
 
 - Image similarity + classification, PyTorch
 - Molecular classification, PyTorch
 - Evaluation of different classification models trained using the hyperparameter tuning library <code>Ray Tune</code> and the AutoML-service <code>auto-sklearn</code>, respectively.
+
+
+#### NLP
+
+- Classical Language models
+- BPE
+- Chunker (sequence-to-sequence modeling) with Keras
+- Document classifiers
+- Transformers an contextual embeddings
+
 
 #### Optimization 
 
@@ -40,7 +49,7 @@ This folder contains computer exercises for the course stationary stochastic pro
 - Implementation of function which constructs the [Jordan Normal form](https://en.wikipedia.org/wiki/Jordan_normal_form) of an input matrix (with integral eigenvalues). The Jordan Normal form of a matrix is an important similar matrix which can be leveraged extensively in mathematical proofs of properties of matrices, particularly non-diagonalizable matrices. It is also the fundament for defining functions on matrices.  
 - Implementet in Matlab.
 
-![fig1](./matrix_theory/images/fig1.png)
+![fig0](./matrix_theory/images/fig1.png)
 
 
 #### Object-oriented Design
